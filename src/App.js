@@ -1,11 +1,16 @@
 import React from "react";
-import "./App.css";
+
+import Form from "./components/Form";
+
+import GlobalStyles from "./styles/global";
 
 function App() {
   return (
-    <div className="App">
-      <h1>React Form Validation</h1>
-    </div>
+    <>
+      <Form />
+
+      <GlobalStyles />
+    </>
   );
 }
 
