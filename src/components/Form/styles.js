@@ -38,7 +38,7 @@ export const Container = styled.div`
 `;
 
 export const Inputs = styled.div`
-  padding: 45px 60px;
+  padding: 40px 60px;
 
   .input-group {
     display: grid;
@@ -105,14 +105,17 @@ export const Inputs = styled.div`
 
   .helper-text {
     color: rgba(0, 0, 0, 0.6);
-    margin-top: 5px;
+    margin-top: 2px;
+
+    ul {
+      padding-left: 15px;
+    }
   }
 
   button[type="submit"] {
     background: #fd4c58;
     border: none;
     padding: 13px;
-    margin-top: 20px;
     color: #fff;
     width: 150px;
     border-radius: 4px;
@@ -126,5 +129,12 @@ export const Inputs = styled.div`
   button[type="submit"]:active,
   button[type="submit"]:focus {
     background: #f0303c;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
   }
 `;
